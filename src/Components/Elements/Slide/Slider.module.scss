@@ -1,0 +1,69 @@
+@import '../../../assets/Helpers/mixin';
+@import '../../../assets/Helpers/variabler';
+
+
+@media screen and (min-width: $x-large) {
+    .slider{
+        img{
+            width: 100%;
+        }
+        h3{
+        width: 50%;
+        font-size: 7em;
+        text-align: center;
+        position: absolute;
+        transform: translateX(100%);
+        margin: 12.5% 0 0 -25%;
+        color: rgb(255, 255, 255);
+    }
+    }
+  }
+@media screen and (max-width: $large) {
+    .slider{
+        img{
+            width: 100%;
+        }
+        h3{
+        width: 50%;
+        font-size: 3em;
+        text-align: center;
+        position: absolute;
+        transform: translateX(100%);
+        margin: 20.5% 0 0 -25%;
+        color: rgb(255, 255, 255);
+        font-family: $headFont;
+    }
+    }
+  }
+@media screen and (max-width: $tablet) {
+    .slider{
+        img{
+            width: 100%;
+        }
+        h3{
+        width: 50%;
+        font-size: 3em;
+        text-align: center;
+        position: absolute;
+        transform: translateX(100%);
+        margin: 12.5% 0 0 -25%;
+        color: rgb(255, 255, 255);
+    }
+    }
+}
+@media screen and (max-width: $mobile){
+    .slider{
+        img{
+            width: 100%;
+        }
+        h3{
+        width: 50%;
+        font-size: 2em;
+        text-align: center;
+        position: absolute;
+        transform: translateX(100%);
+        margin: 12.5% 0 0 -25%;
+        color: rgb(255, 255, 255);
+    }
+    }
+}

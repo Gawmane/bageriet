@@ -1,0 +1,85 @@
+@import '../../../assets/Helpers/mixin';
+@import '../../../assets/Helpers/variabler';
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+figure{
+    flex: 1 1 25%;
+    margin-bottom: 15%;
+    max-width: 240px;
+        height: 70vh;
+
+    div:first-child {
+        width: 100%;
+        max-width: 240px;
+        height: 30vh;
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+h3{
+    
+     color: black;
+     text-align: center;
+
+     padding: 0;
+        }
+p{
+    text-align: center;
+    height: 90px;
+}
+li{
+    list-style-type: none;
+a{
+display: block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px inset black;
+        background-color: transparent;
+        padding: 1em ;
+        font-size: 0.8rem;
+        margin-bottom: 30px;
+        cursor: pointer;
+        color: $text;
+        &:hover{
+            background-color: rgb(202, 201, 201);
+        }
+}}
+.comments{
+    text-align: center;
+   margin-top: 1em
+}
+}}
+
+
+.categories {
+    display: block;
+    width: 10%; 
+    
+    ul{
+        list-style-type: none;
+   
+    
+   
+    display: inline;
+    margin-right: 70% ;
+    padding: 0px;
+    width: 10%;
+    height: 100vh;
+    li {
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+
+        a {
+            text-decoration: none;
+            color: #b3b3b3; 
+        }
+        
+      
+    }
+    }
+}

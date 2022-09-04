@@ -1,0 +1,110 @@
+@import '../../../assets/Helpers/mixin';
+@import '../../../assets/Helpers/variabler';
+
+// @media screen and (min-width: $x-large) {
+    .news{
+        display: flex;
+        flex-wrap: wrap;
+
+    figure{
+        flex: 1 1 25%;
+    
+    img{
+          border-radius: 50%;
+          display: block;
+          margin-left: auto;
+         margin-right: auto;
+          width: 50%;
+          }
+    h3{
+          text-align: center;
+         color: black;
+            }
+    p{
+        text-align: center;
+    }
+    }
+    }
+    @media screen and (max-width: $mobile){
+        .news{
+            display: flex;
+            flex-wrap: wrap;
+    
+        figure{
+            flex: 1 1 50%;
+        }
+    }    
+    }
+.newsletter{
+    margin:0;
+    height: 60vh;
+    background-image: url("../../../assets/images/newsletterbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ 
+.products{
+    display: flex;
+    flex-wrap: wrap;
+figure{
+    flex: 1 1 25%;
+    margin-bottom: 15%;
+    max-width: 240px;
+        height: 70vh;
+
+    div:first-child {
+        width: 100%;
+        max-width: 240px;
+        height: 30vh;
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+h3{
+    
+     color: black;
+     text-align: center;
+
+     padding: 0;
+        }
+p{
+    text-align: center;
+    height: 90px;
+}
+a{
+display: block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 1px inset black;
+        background-color: transparent;
+        padding: 1em ;
+        font-size: 0.8rem;
+        margin-bottom: 30px;
+        cursor: pointer;
+        color: $text;
+        &:hover{
+            background-color: rgb(202, 201, 201);
+        }
+}
+.comments{
+    text-align: center;
+   margin-top: 1em
+}
+}}
+
+
+
+    
+    @media screen and (max-width: $mobile){
+        .newsbake{
+            display: flex;
+            flex-wrap: wrap;
+    
+        figure{
+            flex: 1 1 50%;
+        }
+    }    
+    }
+

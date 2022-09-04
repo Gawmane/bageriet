@@ -2,19 +2,133 @@
 @import '../../../assets//Helpers//variabler';
 
 
-nav {
+
+@media screen and (min-width: $x-large) {
     nav {
-        display: grid;
-        grid-template-columns: auto auto;
-        background-color: #303030;
-    li {
-        display: inline;
-        padding: 50px;
+        margin-top: -1.6em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $main-color;
+        li {
+            display: inline;
+            margin: 0;
+            padding: 1em;
+            &:nth-child(3){
+                a{
+                    text-transform: lowercase;
+                    cursor: default;
+                    font-family: $headFont;
+                    font-size: 3em;
+                    padding: 0 0.5em;
+                    &:hover{color: #fff;}
+                }
+            }
+        
      a {
         text-decoration: none;
         text-transform: uppercase;
         color: #fff;
+        &:hover{
+            color: $hover;
+        }
+    }
+    }
+    }
+  }
+@media screen and (max-width: $large) {
+    
+    nav {
+        margin-top: -1.6em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $main-color;
+    li {
+        display: inline;
+        margin: 0;
+        padding: 1em;
+        &:nth-child(3){
+            a{
+                text-transform: lowercase;
+                cursor: default;
+                font-family: $headFont;
+                font-size: 3em;
+                padding: 0 0.5em;
+                &:hover{color: #fff;}
+            }
+        }
+     a {
+        text-decoration: none;
+        text-transform: uppercase;
+ 
+        color: #fff;
+        &:hover{
+            color: $hover;
+        }
+    }
+    }
+    }
+  }
+@media screen and (max-width: $tablet) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $main-color;
+    li {
+        display: inline;
+        margin: 0;
+        padding: 0.5em;
+        &:nth-child(3){
+            a{
+                text-transform: lowercase;
+                cursor: default;
+                font-family: $headFont;
+                font-size: 3em;
+                padding: 0 1em;
+                &:hover{color: #fff;}
+            }
+        }
+     a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+        font-size: 1em;
+        
+        &:hover{
+            color: $hover;
+        }
     }
     }
     }
 }
+@media screen and (max-width: $mobile){
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $main-color;
+        
+    li {
+        display: inline;
+        &:nth-child(3){
+            a{
+                cursor: default;
+                font-family: $headFont;
+                font-size: 2em;
+            }
+        }
+     a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        &:hover{
+            color: $hover;
+        }
+    }
+    }
+    
+    }
+}
+

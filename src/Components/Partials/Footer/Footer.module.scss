@@ -1,8 +1,92 @@
 @import '../../../assets/Helpers/mixin';
 @import '../../../assets/Helpers/variabler';
+@media screen and (min-width: $x-large) {
+    footer {
+        margin-bottom: -1em;
+        background-color: $text;
+        ;
+        text-align: center;
+        h2 {
+            color: #fff;
+            padding: 1em;
+        }
+        p {
+            color: #b3b3b3;
+            padding-bottom: 2em;
+        }
+        .copyright {
+            background-color: $headText;
+            width: 100%;
+            p {
+                padding: 1em;
+            }
+        }
+    }
+}
 
+@media screen and (max-width: $large) {
+    footer {
+        background-color: $text;
+        margin-bottom: -1em;
+        text-align: center;
+        h2 {
+            color: #fff;
+            padding: 1em;
+        }
+        p {
+            color: #b3b3b3;
+            padding-bottom: 2em;
+        }
+        .copyright {
+            background-color: $headText;
+            width: 100%;
+            p {
+                padding: 1em;
+            }
+        }
+    }
+}
 
-footer{
-   
-    
+@media screen and (max-width: $tablet) {
+    footer {
+        background-color: $text;
+        color: rgb(179, 179, 179);
+        text-align: center;
+        h2 {
+            color: #fff;
+            padding: 1em;
+        }
+        p {
+            padding-bottom: 2em;
+        }
+        .copyright {
+            background-color: $headText;
+            width: 100%;
+            p {
+                padding: 1em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    footer {
+        background-color: $text;
+        color: #b3b3b3;
+        text-align: center;
+        h2 {
+            color: #fff;
+            padding: 1em;
+        }
+        p {
+            padding-bottom: 2em;
+        }
+        .copyright {
+            background-color: $headText;
+            width: 100%;
+            p {
+                padding: 1em;
+            }
+        }
+    }
 }

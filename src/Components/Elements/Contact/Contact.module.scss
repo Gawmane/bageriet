@@ -1,0 +1,192 @@
+@import '../../../assets/Helpers/mixin';
+@import '../../../assets/Helpers/variabler';
+
+
+
+@media screen and (min-width: $x-large) {
+   
+  }
+@media screen and (max-width: $large) {
+    .form{
+        width: 50%;
+     margin: 5% -20% 5%  5%;
+         input {
+             margin-left: 0;
+             margin-bottom: 10px;
+             padding: 5px 5px;
+             display: block;
+             width: 55%;
+             height: 35px;
+             border: none;
+             background-color: #fff;
+         }
+         //Textarea
+         textarea {
+             border: none;
+             resize: none;
+             margin-bottom: 10px;
+             padding: 5px 5px;
+             display: block;
+             width: 55%;
+             height: 30vh;
+             background-color: #fff;
+            
+         }
+          
+         //Style af knapper
+         button {
+             margin-left: 46%;
+             width: 10%;
+             
+             color: #fff;
+             border: none;
+              padding: 0.5em 0;
+             text-align: center;
+             text-decoration: none;
+             text-transform: uppercase;
+             cursor: pointer;
+             background-color: $main-color;
+         }
+                
+     }
+     .formMessage{
+        
+     article{ height: 50vh;
+        margin: 10% 0% 5%  5%;
+        border: 0.2em solid $main-color;
+        background-color: $hover;
+        p{
+        color: $background;
+        }
+    }
+}
+     .map{
+         width: 50%;
+         margin: 5% -20% 5%  5%;
+         display:block;
+         p{text-align: left;
+         margin-top: 0.1em;}
+         iframe{
+             margin-top: 0.1em;
+             width: 50%;
+             height: 75%;
+         }
+         
+     }
+     
+  }
+@media screen and (max-width: $tablet) {
+    .form{
+        margin: 5% -25% 5%  5%;
+        width: 70%;
+    
+         input {
+             margin-bottom: 10px;
+             
+             padding: 5px 5px;
+             display: block;
+             width: 55%;
+             height: 35px;
+             border: none;
+             background-color: #fff;
+         }
+         //Textarea
+         textarea {
+             border: none;
+             resize: none;
+             margin-bottom: 10px;
+             padding: 5px 5px;
+             display: block;
+             width: 55%;
+             height: 30vh;
+             background-color: #fff;
+            
+         }
+          
+         //Style af knapper
+         button {
+             margin-left: 37%;
+             width: 20%;
+             color: #fff;
+             border: none;
+              padding: 0.5em 0;
+             text-align: center;
+             text-decoration: none;
+             text-transform: uppercase;
+             cursor: pointer;
+             background-color: $main-color;
+         }
+         
+        
+     }
+     .map{
+         width: 50%;
+         margin: 5% 0 5%  5%;
+         display:block;
+         p{text-align: left;
+         margin-top: 0.1em;}
+         iframe{
+             margin-top: 0.1em;
+             width: 80%;
+             height: 75%;
+         }
+         
+     }
+}
+@media screen and (max-width: $mobile){
+    .form{
+        
+         input {
+             margin-bottom: 10px;
+             padding: 5px 5px;
+             display: block;
+             width: 177%;
+             height: 35px;
+             border: none;
+             background-color: #fff;
+         }
+         //Textarea
+         textarea {
+             border: none;
+             resize: none;
+             margin-bottom: 10px;
+             padding: 5px 5px;
+             display: block;
+             width: 177%;
+             height: 30vh;
+             background-color: #fff;
+            
+         }
+         
+              
+         //Style af knapper
+         button {
+             
+             width: 100%;
+             
+             color: #fff;
+             border: none;
+              padding: 0.5em 0;
+             text-align: center;
+             text-decoration: none;
+             text-transform: uppercase;
+             cursor: pointer;
+             background-color: $main-color;
+         }
+         
+        
+     }
+     .map{
+         margin: 1em;
+         p{
+             margin: 0;
+         margin-top: 0.1em;}
+         iframe{
+             margin-top: 0.1em;
+             width: 177%;
+             
+         }
+         
+     }
+     
+}
